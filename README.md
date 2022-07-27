@@ -17,4 +17,4 @@ Example data:
 Example usage:
 
 `elko(example_data,3,0.05)`
-`elko(example_data,"glm(",", family = poisson(link='log'))",3,0.05)`
+`ciyl(example_data,"glm(",", family = poisson(link='log'))",3,0.05)`
