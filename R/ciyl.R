@@ -4,7 +4,7 @@ ciyl = function(df,fhof,shof,spoint,ftop){
   sa=df
   rownames(sa) <- sa$Name
   sa$Name=NULL
-  spoint = 12
+  
   loabp = t(colnames(sa[,2:spoint]))
   lospp = t(colnames(sa[spoint:length(sa)]))
 
@@ -48,11 +48,11 @@ ciyl = function(df,fhof,shof,spoint,ftop){
         naform= paste(pfor, collapse = '+')
         formdayiz = paste(x,"~",naform)}
       else{formdayiz = paste(x,"~+1")# if a variable doesnt have high accurate variable it gives +1 instead
-      print("şşşşşşş")
+      
       }
     }else{
       formdayiz = paste(x,"~+1")
-      print("ĞĞĞĞĞĞ")
+      
     }
     #reconstract the formula
 
