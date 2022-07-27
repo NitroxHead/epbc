@@ -1,7 +1,7 @@
 # epbc
 !!!it's in beta!!!
 
-This package helps you dealing with multiple models with multiple explanatory variables while you create your linear or nonlinear model. This package takes your data and puts them thru stepwise AIC then puts every model thru chisq test and checks significance of each variable. It automatically eliminates variables that resulted below the threshold value. If there were no explanatory variable left of the model that model will be excluded from the results.
+This package helps you deal with multiple models with multiple explanatory variables while you create your linear or nonlinear model. This package takes your data and puts them thru stepwise AIC then puts every model in thru chisq test and checks the significance of each variable. It automatically eliminates variables that resulted below the threshold value. If there were no explanatory variables left in the model that model will be excluded from the results.
 
 Example data:
 
@@ -17,3 +17,4 @@ Example data:
 Example usage:
 
 `elko(example_data,3,0.05)`
+`elko(example_data,"glm(",", family = poisson(link='log'))",3,0.05)`
