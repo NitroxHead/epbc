@@ -1,4 +1,4 @@
-\name{epbc}
+\name{elko}
 \alias{elko}
 \title{Optimising models by reducing explanatory variables}
 \usage{
