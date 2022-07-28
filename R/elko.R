@@ -6,7 +6,7 @@ elko = function(df,spoint,ftop){
   sa$Name=NULL
 
   loabp = t(colnames(sa[,2:spoint]))
-  lospp = t(colnames(sa[spoint:length(sa)]))
+  lospp = t(colnames(sa[(spoint+1):length(sa)]))
 
   loabpff = knitr::combine_words(loabp, sep ="+",and = "")
   finalmodel=list()
