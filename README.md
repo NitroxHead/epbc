@@ -22,5 +22,6 @@ Example usage:
 
 To install:
 
-library(devtools)
-install_github("https://github.com/NitroxHead/epbc")
+`library(devtools)`
+
+`install_github("https://github.com/NitroxHead/epbc")`
