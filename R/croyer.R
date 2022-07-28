@@ -84,6 +84,7 @@ croyer = function(df,fhof,shof,spoint,ftop,vout,vtype,vtest){
     dddi = dim(trlistdfparsed)
     hnnat=1#how many non numeric at the table
     CU = matrix(0,dddi[1],length(loabp)+1) #creating dataframe for counting
+    colnames(CU) = append(loabp)#creating dataframe for counting
     CU = data.frame(CU)#creating dataframe for counting
     rownames(CU)= rownames(trlistdfparsed)#creating dataframe for counting
     
