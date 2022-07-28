@@ -48,11 +48,11 @@ croyer = function(df,fhof,shof,spoint,ftop,vout,vtype,vtest){
         naform= paste(pfor, collapse = '+')
         formdayiz = paste(x,"~",naform)}
       else{formdayiz = paste(x,"~+1")# if a variable doesnt have high accurate variable it gives +1 instead
-      print("şşşşşşş")
+      
       }
     }else{
       formdayiz = paste(x,"~+1")
-      print("ĞĞĞĞĞĞ")
+      
     }
     #reconstract the formula
     
