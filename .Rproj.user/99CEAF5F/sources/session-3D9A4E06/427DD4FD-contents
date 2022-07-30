@@ -1,0 +1,10 @@
+Package: epbc
+Type: Package
+Title: Stepwise AIC and Chisq test based elemination of explanatory variable... 
+Version: 0.1.0
+Author: NitroxHead
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: after stepwise AIC applied value of explanatory variable has been tested. If they are still under deterined threshold they will be eleminated. after elemination if there were no explanatory variables left those ones are eleminated. Optional table output.
+License: GNU GPLv3 
+Encoding: UTF-8
+LazyData: true
